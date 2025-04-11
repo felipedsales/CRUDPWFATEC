@@ -38,7 +38,18 @@
 
       <label for="mensagem">Mensagem:</label><br>
       <textarea id="mensagem" name="mensagem" maxlength="200" required></textarea><br><br>
-      
+
+      <label for="tipo">Tipo de Inscrição:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="">Selecione</option>
+        <option value="palestrante">Palestrante</option>
+        <option value="participante">Participante</option>
+        <option value="voluntario">Voluntário</option>
+      </select><br><br>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+
     </form>
   </main>
 
